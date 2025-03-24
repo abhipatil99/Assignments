@@ -1,4 +1,4 @@
-# Assignment-No1
+# Assignment
 Distributed system
 
 Since your repositories (`csc-435-ea-abhipatil99`, `csc-435-pa5-abhipatil99`, `csc-435-pa4-abhipatil99`, `csc-435-pa3-abhipatil99`, `csc-435-pa2-abhipatil99`, `csc-435-pa1-abhipatil99`) are likely Java-based assignments from a course (CSC-435), I’ll provide a tailored **design pattern** and **repository structure** for each one. Without knowing the exact requirements of each assignment, I’ll make educated assumptions based on typical computer science coursework (e.g., data structures, algorithms, or software design). I’ll assign a plausible pattern to each, explain why it fits, and provide a basic Java implementation outline along with a GitHub repository structure.
