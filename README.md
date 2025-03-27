@@ -48,45 +48,42 @@ Now, let’s assign a design pattern to each assignment and outline how to build
 - **Why Singleton?** Ensures only one instance exists, useful for shared resources in early assignments.
 - **Java Implementation:**
   ```java
-  // src/main/java/org/abhipatil99/Singleton.java
-  package org.abhipatil99;
+ // src/main/java/org/abhipatil99/Singleton.java
+package org.abhipatil99;
 
-  public class Singleton {
-      private static Singleton instance;
-      private int counter; // Example state
+public class Singleton {
+    private static Singleton instance;
+    private int counter; // Example state
 
-      private Singleton() {
-          counter = 0; // Private constructor
-      }
+    private Singleton() {
+        // TO-DO: Initialize any necessary state or resources here
+    }
 
-      public static Singleton getInstance() {
-          if (instance == null) {
-              instance = new Singleton();
-          }
-          return instance;
-      }
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
 
-      public void incrementCounter() {
-          counter++;
-          System.out.println("Counter: " + counter);
-      }
-  }
+    public void incrementCounter() {
+        // TO-DO: Implement logic to modify or manage the resource (e.g., increment a counter)
+    }
+}
 
-  // src/main/java/org/abhipatil99/Main.java
-  package org.abhipatil99;
+// src/main/java/org/abhipatil99/Main.java
+package org.abhipatil99;
 
-  public class Main {
-      public static void main(String[] args) {
-          Singleton singleton = Singleton.getInstance();
-          singleton.incrementCounter(); // Counter: 1
-          Singleton another = Singleton.getInstance(); // Same instance
-          another.incrementCounter(); // Counter: 2
-      }
-  }
+public class Main {
+    public static void main(String[] args) {
+        Singleton singleton = Singleton.getInstance();
+        // TO-DO: Add code to test or utilize the Singleton instance
+    }
+}
   ```
 - **Why It Fits:** Teaches object-oriented basics and resource management.
 
----
+-----------------------------------------------------------------------------------------------------------
 
 ### 2. `csc-435-pa2-abhipatil99` - Factory Pattern
 - **Assumption:** Create different types of objects (e.g., shapes, algorithms, or data structures).
