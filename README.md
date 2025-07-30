@@ -449,3 +449,68 @@ public class Main {
 
 ### Tailoring to Your Assignments
 If you can share specific details about what each assignment does (e.g., "PA1 is a calculator," "PA3 is a sorting program"), I can refine these patterns further. Otherwise, these are solid starting points for typical Java assignments. Let me know if you need help implementing or adjusting any of these!
+
+
+# Spring Boot Enterprise Project Portfolio
+
+This repository contains my Object-Oriented Enterprise Computing assignment built using **Spring Boot**. The project demonstrates my understanding of OOP principles, RESTful APIs, and enterprise-grade application development.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [API Endpoints](#api-endpoints)
+- [OOP Principles Demonstrated](#oop-principles-demonstrated)
+- [Screenshots](#screenshots)
+
+## Project Overview
+This is a [describe your project, e.g., "task management system for enterprises"]. It leverages Spring Boot to create a scalable, RESTful application with a focus on OOP principles.
+
+## Features
+- User authentication and authorization
+- CRUD operations for [specific entities, e.g., employees, tasks]
+- Database integration with [e.g., MySQL/PostgreSQL]
+- Unit tests for services and controllers
+
+## Technologies Used
+- **Backend**: Java, Spring Boot, Spring Data JPA, Hibernate
+- **Database**: [e.g., MySQL, H2]
+- **Build Tool**: Maven
+- **Testing**: JUnit, Mockito
+- **Other**: Lombok, Swagger (for API documentation)
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Spring-Boot-Enterprise-Assignment.git
+
+2. Navigate to the project directory:
+   cd Spring-Boot-Enterprise-Assignment
+
+3. Configure the database in src/main/resources/application.properties.
+
+4. Run the application: mvn spring-boot:run
+
+5. Access the application at http://localhost:8080
+     ## API Endpoints
+     -------------------------------------------------------------------   
+     | Method | Endpoint               | Description                   |
+     |--------|------------------------|-------------------------------|
+     | GET    | `/api/users`          | Retrieve all users             |
+     | POST   | `/api/users`          | Create a new user              |
+     | PUT    | `/api/users/{id}`     | Update a user by ID            |
+     | DELETE | `/api/users/{id}`     | Delete a user by ID            |
+     -------------------------------------------------------------------
+
+     ## OOP Principles Demonstrated
+     - **Encapsulation**: Data is hidden in model classes with private fields and public getters/setters.
+     - **Inheritance**: [e.g., Base entity class extended by specific entities].
+     - **Polymorphism**: [e.g., Interface-based service layer].
+     - **Abstraction**: [e.g., Abstract repository classes].
+
+     ## Screenshots
+     [Embed images or GIFs showing your application in action, e.g., API responses in Postman]
+
+    
+   
