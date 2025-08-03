@@ -510,7 +510,7 @@ This is a [describe your project, e.g., "task management system for enterprises"
      - **Abstraction**: [e.g., Abstract repository classes].
 
      ## Screenshots
-     [Embed images or GIFs showing your application in action, e.g., API responses in Postman]
+     
 
     
    
